@@ -15,6 +15,7 @@ namespace lesson02
     public partial class FRM_Bumon : Form
     {
         //Branch1 Test
+        //pull request test myatnoe
         public MySqlConnection connection;
         public string server;
         public string database;
