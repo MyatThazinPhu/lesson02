@@ -39,6 +39,7 @@ namespace lesson02
 
         private void BT_NewInput_Click(object sender, EventArgs e)
         {
+            //new pull request
             BT_Save.Enabled = true;
             BT_Cancel.Enabled  = true;
             TXT_Bumoncode.Enabled = true;
