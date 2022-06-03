@@ -16,6 +16,7 @@ namespace lesson02
     {
         //Branch1 Test
         //pull request test myatnoe
+        //pull request test chaw
         public MySqlConnection connection;
         public string server;
         public string database;
@@ -26,7 +27,7 @@ namespace lesson02
         public String folder = "\\demo20\\";
         Boolean savesuccess;
         
-        public FRM_Bumon()
+        //public FRM_Bumon() delete chaw updatee
        public FRM_Bumon()
         {
             InitializeComponent();
@@ -34,6 +35,8 @@ namespace lesson02
            //Testing chaw
            //Testing Eaindray 
            // Eaindray Test 2
+           //Testing chaw 1
+           //Testing chaw 2
         }
         #region BT_Close_Click and BT_NewInput_Click
         private void BT_Close_Click(object sender, EventArgs e)
