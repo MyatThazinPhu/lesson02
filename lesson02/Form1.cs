@@ -28,7 +28,8 @@ namespace lesson02
         {
             InitializeComponent();
            //Testing chaw
-           //Testing Eaindray
+           //Testing Eaindray 
+           // Eaindray Test 2
         }
         #region BT_Close_Click and BT_NewInput_Click
         private void BT_Close_Click(object sender, EventArgs e)
