@@ -27,7 +27,7 @@ namespace lesson02
         public String folder = "\\demo20\\";
         Boolean savesuccess;
         
-        //public FRM_Bumon() delete chaw
+        //public FRM_Bumon() delete chaw updatee
        public FRM_Bumon()
         {
             InitializeComponent();
