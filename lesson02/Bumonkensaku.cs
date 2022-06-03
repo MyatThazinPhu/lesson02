@@ -39,7 +39,7 @@ namespace lesson02
                         DialogResult result = MessageBox.Show("全てのデータを検索すると、時間が掛かる場合があります。", "確認", MessageBoxButtons.OKCancel);
                         if (result == DialogResult.OK)
                         {
-                            query += " and cBUMON is not null and cBUMON!='' order by cBUMON asc";
+                            query += " and cBUMON is not null and cBUMON!='' order by cBUMON asc"; //test ppk
                             command.CommandText = query;
                             reader = command.ExecuteReader();
                             DGV_Bumonlist.Rows.Clear();
