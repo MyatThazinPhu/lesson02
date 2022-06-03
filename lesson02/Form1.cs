@@ -34,7 +34,7 @@ namespace lesson02
         {
           this.Close();
             //Added chaw chaw
-
+            //Testing chaw
         }
 
         private void BT_NewInput_Click(object sender, EventArgs e)
