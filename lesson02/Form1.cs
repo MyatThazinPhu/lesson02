@@ -27,8 +27,7 @@ namespace lesson02
         public FRM_Bumon()
         {
             InitializeComponent();
-            
-           
+           //Testing chaw
         }
         #region BT_Close_Click and BT_NewInput_Click
         private void BT_Close_Click(object sender, EventArgs e)
