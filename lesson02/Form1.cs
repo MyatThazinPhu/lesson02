@@ -36,6 +36,7 @@ namespace lesson02
            //Testing Eaindray 
            // Eaindray Test 2
            //Testing chaw 1
+           //Testing chaw 2
         }
         #region BT_Close_Click and BT_NewInput_Click
         private void BT_Close_Click(object sender, EventArgs e)
