@@ -22,7 +22,7 @@ namespace lesson02
             f1 = ff;
         }
         #region BT_Kensaku_Click
-        private void BT_Kensaku_Click(object sender, EventArgs e)
+        private void BT_Kensaku_Click(object sender, EventArgs e)      //Added by phoo
         {
             
             String bumoncode = TXT_Bumoncode.Text;
@@ -111,7 +111,7 @@ namespace lesson02
             f1.connection.Close();
             BT_Kensaku.Select();
         }
-        #endregion
+        #endregion    // Added by phoo 
         #region BTN_Close_Click and BT_Clear_Click
         private void BTN_Close_Click(object sender, EventArgs e)
         {
@@ -127,7 +127,7 @@ namespace lesson02
             BT_Clear.Enabled = false;
             BT_Yomi.Enabled = false;
         }
-        #endregion
+        #endregion //
         #region TXT_Bumoncode_KeyPress and TXT_Bumoncode_Leave
         private void TXT_Bumoncode_KeyPress(object sender, KeyPressEventArgs e)
         {
