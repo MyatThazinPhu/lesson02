@@ -33,7 +33,7 @@ namespace lesson02
         private void BT_Close_Click(object sender, EventArgs e)
         {
           this.Close();
-            //Added chaw
+            //Added chaw chaw
 
         }
 
