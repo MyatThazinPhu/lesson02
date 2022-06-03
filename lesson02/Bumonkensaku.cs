@@ -27,7 +27,7 @@ namespace lesson02
             
             String bumoncode = TXT_Bumoncode.Text;
             String bumonname = TXT_Bumonname.Text;
-            String query= "select cBUMON,sBUMON from m_bumon where 1=1";
+            String query= "select cBUMON,sBUMON from m_bumon where 1=1"; //added by phoo 20220603
             MySqlDataReader reader;
             try
                 {
