@@ -27,8 +27,10 @@ namespace lesson02
         Boolean savesuccess;
         
         public FRM_Bumon()
+       public FRM_Bumon()
         {
             InitializeComponent();
+           //20220603 Chaw
            //Testing chaw
            //Testing Eaindray 
            // Eaindray Test 2
