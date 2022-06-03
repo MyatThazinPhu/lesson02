@@ -32,7 +32,7 @@ namespace lesson02
             try
                 {
                     f1.connection.Open();
-                    MySqlCommand command = f1.connection.CreateCommand();
+                    MySqlCommand command = f1.connection.CreateCommand(); //test phoo
                     if (bumoncode == "" && bumonname == "")
 
                     {
