@@ -27,19 +27,19 @@ namespace lesson02
             
             String bumoncode = TXT_Bumoncode.Text;
             String bumonname = TXT_Bumonname.Text;
-            String query= "select cBUMON,sBUMON from m_bumon where 1=1";
+            String query= "select cBUMON,sBUMON from m_bumon where 1=1"; //added by phoo 20220603
             MySqlDataReader reader;
             try
                 {
                     f1.connection.Open();
-                    MySqlCommand command = f1.connection.CreateCommand();
+                    MySqlCommand command = f1.connection.CreateCommand(); //test phoo
                     if (bumoncode == "" && bumonname == "")
 
                     {
                         DialogResult result = MessageBox.Show("全てのデータを検索すると、時間が掛かる場合があります。", "確認", MessageBoxButtons.OKCancel);
                         if (result == DialogResult.OK)
                         {
-                            query += " and cBUMON is not null and cBUMON!='' order by cBUMON asc";
+                            query += " and cBUMON is not null and cBUMON!='' order by cBUMON asc"; //test ppk
                             command.CommandText = query;
                             reader = command.ExecuteReader();
                             DGV_Bumonlist.Rows.Clear();
